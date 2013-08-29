@@ -5,4 +5,4 @@ var cTemp = 100;
 var fTemp = ((cTemp *9) / 5) + 32;
   
   document.write("Temperature in Celsius: " + cTemp + " degrees<br/>);
-  docuemtn.write("Temperature in Fahrenheit: " + fTemp + " degrees");
+  document.write("Temperature in Fahrenheit: " + fTemp + " degrees");
