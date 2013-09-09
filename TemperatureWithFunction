@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fahrenheit From Celsius using a Function</title>
+</head>
+<body>
+	<script>
+		var cTemp = 90;
+		
+	function converter(celsius){
+		var fTemp = ((celsius * 9) / 5) + 32;		
+		return fTemp;
+	}
+
+	document.write("Temperature in Celsius: " + cTemp + " degrees<br/>");
+	document.write("Temperature in Fahrenheit: " + converter(cTemp) + " degrees<br/>");
+	
+	</script>
+</body>
+</html>
